@@ -16,6 +16,8 @@
 		CBAAB2EE1788029700412960 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CBAAB2ED1788029700412960 /* Default.png */; };
 		CBAAB2F01788029700412960 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBAAB2EF1788029700412960 /* Default@2x.png */; };
 		CBAAB2F21788029700412960 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBAAB2F11788029700412960 /* Default-568h@2x.png */; };
+		CBAAB2FA178802AB00412960 /* KPBUserDefaultsBackedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAAB2F9178802AB00412960 /* KPBUserDefaultsBackedObject.m */; };
+		CBAAB2FD178802C700412960 /* KPBAppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAAB2FC178802C700412960 /* KPBAppPreferences.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		CBAAB2ED1788029700412960 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CBAAB2EF1788029700412960 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CBAAB2F11788029700412960 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CBAAB2F8178802AB00412960 /* KPBUserDefaultsBackedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPBUserDefaultsBackedObject.h; sourceTree = "<group>"; };
+		CBAAB2F9178802AB00412960 /* KPBUserDefaultsBackedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPBUserDefaultsBackedObject.m; sourceTree = "<group>"; };
+		CBAAB2FB178802C700412960 /* KPBAppPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPBAppPreferences.h; sourceTree = "<group>"; };
+		CBAAB2FC178802C700412960 /* KPBAppPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPBAppPreferences.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 				CBAAB2EA1788029700412960 /* KPBAppDelegate.h */,
 				CBAAB2EB1788029700412960 /* KPBAppDelegate.m */,
 				CBAAB2E21788029700412960 /* Supporting Files */,
+				CBAAB2F8178802AB00412960 /* KPBUserDefaultsBackedObject.h */,
+				CBAAB2F9178802AB00412960 /* KPBUserDefaultsBackedObject.m */,
+				CBAAB2FB178802C700412960 /* KPBAppPreferences.h */,
+				CBAAB2FC178802C700412960 /* KPBAppPreferences.m */,
 			);
 			path = KPBUserDefaultsBackedObject;
 			sourceTree = "<group>";
@@ -167,6 +177,8 @@
 			files = (
 				CBAAB2E81788029700412960 /* main.m in Sources */,
 				CBAAB2EC1788029700412960 /* KPBAppDelegate.m in Sources */,
+				CBAAB2FA178802AB00412960 /* KPBUserDefaultsBackedObject.m in Sources */,
+				CBAAB2FD178802C700412960 /* KPBAppPreferences.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
