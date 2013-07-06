@@ -7,47 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CBAAB2DC1788029700412960 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAAB2DB1788029700412960 /* UIKit.framework */; };
-		CBAAB2DE1788029700412960 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAAB2DD1788029700412960 /* Foundation.framework */; };
-		CBAAB2E01788029700412960 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAAB2DF1788029700412960 /* CoreGraphics.framework */; };
-		CBAAB2E61788029700412960 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBAAB2E41788029700412960 /* InfoPlist.strings */; };
-		CBAAB2E81788029700412960 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAAB2E71788029700412960 /* main.m */; };
-		CBAAB2EC1788029700412960 /* KPBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAAB2EB1788029700412960 /* KPBAppDelegate.m */; };
-		CBAAB2EE1788029700412960 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CBAAB2ED1788029700412960 /* Default.png */; };
-		CBAAB2F01788029700412960 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBAAB2EF1788029700412960 /* Default@2x.png */; };
-		CBAAB2F21788029700412960 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBAAB2F11788029700412960 /* Default-568h@2x.png */; };
-		CBAAB2FA178802AB00412960 /* KPBUserDefaultsBackedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAAB2F9178802AB00412960 /* KPBUserDefaultsBackedObject.m */; };
-		CBAAB2FD178802C700412960 /* KPBAppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAAB2FC178802C700412960 /* KPBAppPreferences.m */; };
+		CBAAB30317882B1F00412960 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAAB2DB1788029700412960 /* UIKit.framework */; };
+		CBAAB30417882B1F00412960 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAAB2DD1788029700412960 /* Foundation.framework */; };
+		CBAAB30517882B1F00412960 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAAB2DF1788029700412960 /* CoreGraphics.framework */; };
+		CBAAB30B17882B1F00412960 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBAAB30917882B1F00412960 /* InfoPlist.strings */; };
+		CBAAB30D17882B1F00412960 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAAB30C17882B1F00412960 /* main.m */; };
+		CBAAB31117882B1F00412960 /* KPBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAAB31017882B1F00412960 /* KPBAppDelegate.m */; };
+		CBAAB31317882B1F00412960 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CBAAB31217882B1F00412960 /* Default.png */; };
+		CBAAB31517882B1F00412960 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBAAB31417882B1F00412960 /* Default@2x.png */; };
+		CBAAB31717882B1F00412960 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBAAB31617882B1F00412960 /* Default-568h@2x.png */; };
+		CBAAB31F17882B1F00412960 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAAB31E17882B1F00412960 /* SenTestingKit.framework */; };
+		CBAAB32017882B1F00412960 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAAB2DB1788029700412960 /* UIKit.framework */; };
+		CBAAB32117882B1F00412960 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAAB2DD1788029700412960 /* Foundation.framework */; };
+		CBAAB32917882B1F00412960 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBAAB32717882B1F00412960 /* InfoPlist.strings */; };
+		CBAAB32C17882B1F00412960 /* KPBUserDefaultsBackedObjectTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAAB32B17882B1F00412960 /* KPBUserDefaultsBackedObjectTestsTests.m */; };
+		CBAAB33A17882D6B00412960 /* KPBUserDefaultsBackedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAAB33817882D6B00412960 /* KPBUserDefaultsBackedObject.m */; };
+		CBAAB33D17882D9900412960 /* KPBAppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAAB33C17882D9900412960 /* KPBAppPreferences.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CBAAB32217882B1F00412960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBAAB2D01788029700412960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBAAB30117882B1F00412960;
+			remoteInfo = KPBUserDefaultsBackedObjectTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		CBAAB2D81788029700412960 /* KPBUserDefaultsBackedObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPBUserDefaultsBackedObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBAAB2DB1788029700412960 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CBAAB2DD1788029700412960 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBAAB2DF1788029700412960 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CBAAB2E31788029700412960 /* KPBUserDefaultsBackedObject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KPBUserDefaultsBackedObject-Info.plist"; sourceTree = "<group>"; };
-		CBAAB2E51788029700412960 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CBAAB2E71788029700412960 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CBAAB2E91788029700412960 /* KPBUserDefaultsBackedObject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KPBUserDefaultsBackedObject-Prefix.pch"; sourceTree = "<group>"; };
-		CBAAB2EA1788029700412960 /* KPBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPBAppDelegate.h; sourceTree = "<group>"; };
-		CBAAB2EB1788029700412960 /* KPBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPBAppDelegate.m; sourceTree = "<group>"; };
-		CBAAB2ED1788029700412960 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		CBAAB2EF1788029700412960 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		CBAAB2F11788029700412960 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		CBAAB2F8178802AB00412960 /* KPBUserDefaultsBackedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPBUserDefaultsBackedObject.h; sourceTree = "<group>"; };
-		CBAAB2F9178802AB00412960 /* KPBUserDefaultsBackedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPBUserDefaultsBackedObject.m; sourceTree = "<group>"; };
-		CBAAB2FB178802C700412960 /* KPBAppPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPBAppPreferences.h; sourceTree = "<group>"; };
-		CBAAB2FC178802C700412960 /* KPBAppPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPBAppPreferences.m; sourceTree = "<group>"; };
+		CBAAB30217882B1F00412960 /* KPBUserDefaultsBackedObjectTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPBUserDefaultsBackedObjectTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBAAB30817882B1F00412960 /* KPBUserDefaultsBackedObjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KPBUserDefaultsBackedObjectTests-Info.plist"; sourceTree = "<group>"; };
+		CBAAB30A17882B1F00412960 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBAAB30C17882B1F00412960 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBAAB30E17882B1F00412960 /* KPBUserDefaultsBackedObjectTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KPBUserDefaultsBackedObjectTests-Prefix.pch"; sourceTree = "<group>"; };
+		CBAAB30F17882B1F00412960 /* KPBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPBAppDelegate.h; sourceTree = "<group>"; };
+		CBAAB31017882B1F00412960 /* KPBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPBAppDelegate.m; sourceTree = "<group>"; };
+		CBAAB31217882B1F00412960 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CBAAB31417882B1F00412960 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CBAAB31617882B1F00412960 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CBAAB31D17882B1F00412960 /* KPBUserDefaultsBackedObjectTestsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KPBUserDefaultsBackedObjectTestsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBAAB31E17882B1F00412960 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CBAAB32617882B1F00412960 /* KPBUserDefaultsBackedObjectTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KPBUserDefaultsBackedObjectTestsTests-Info.plist"; sourceTree = "<group>"; };
+		CBAAB32817882B1F00412960 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBAAB32A17882B1F00412960 /* KPBUserDefaultsBackedObjectTestsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPBUserDefaultsBackedObjectTestsTests.h; sourceTree = "<group>"; };
+		CBAAB32B17882B1F00412960 /* KPBUserDefaultsBackedObjectTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPBUserDefaultsBackedObjectTestsTests.m; sourceTree = "<group>"; };
+		CBAAB33717882D6B00412960 /* KPBUserDefaultsBackedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPBUserDefaultsBackedObject.h; sourceTree = "<group>"; };
+		CBAAB33817882D6B00412960 /* KPBUserDefaultsBackedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPBUserDefaultsBackedObject.m; sourceTree = "<group>"; };
+		CBAAB33B17882D9900412960 /* KPBAppPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPBAppPreferences.h; sourceTree = "<group>"; };
+		CBAAB33C17882D9900412960 /* KPBAppPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPBAppPreferences.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CBAAB2D51788029700412960 /* Frameworks */ = {
+		CBAAB2FF17882B1F00412960 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBAAB2DC1788029700412960 /* UIKit.framework in Frameworks */,
-				CBAAB2DE1788029700412960 /* Foundation.framework in Frameworks */,
-				CBAAB2E01788029700412960 /* CoreGraphics.framework in Frameworks */,
+				CBAAB30317882B1F00412960 /* UIKit.framework in Frameworks */,
+				CBAAB30417882B1F00412960 /* Foundation.framework in Frameworks */,
+				CBAAB30517882B1F00412960 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAAB31917882B1F00412960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAAB31F17882B1F00412960 /* SenTestingKit.framework in Frameworks */,
+				CBAAB32017882B1F00412960 /* UIKit.framework in Frameworks */,
+				CBAAB32117882B1F00412960 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +88,8 @@
 		CBAAB2CF1788029700412960 = {
 			isa = PBXGroup;
 			children = (
-				CBAAB2E11788029700412960 /* KPBUserDefaultsBackedObject */,
+				CBAAB30617882B1F00412960 /* KPBUserDefaultsBackedObjectTests */,
+				CBAAB32417882B1F00412960 /* KPBUserDefaultsBackedObjectTestsTests */,
 				CBAAB2DA1788029700412960 /* Frameworks */,
 				CBAAB2D91788029700412960 /* Products */,
 			);
@@ -66,7 +98,8 @@
 		CBAAB2D91788029700412960 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CBAAB2D81788029700412960 /* KPBUserDefaultsBackedObject.app */,
+				CBAAB30217882B1F00412960 /* KPBUserDefaultsBackedObjectTests.app */,
+				CBAAB31D17882B1F00412960 /* KPBUserDefaultsBackedObjectTestsTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,34 +110,54 @@
 				CBAAB2DB1788029700412960 /* UIKit.framework */,
 				CBAAB2DD1788029700412960 /* Foundation.framework */,
 				CBAAB2DF1788029700412960 /* CoreGraphics.framework */,
+				CBAAB31E17882B1F00412960 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CBAAB2E11788029700412960 /* KPBUserDefaultsBackedObject */ = {
+		CBAAB30617882B1F00412960 /* KPBUserDefaultsBackedObjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				CBAAB2EA1788029700412960 /* KPBAppDelegate.h */,
-				CBAAB2EB1788029700412960 /* KPBAppDelegate.m */,
-				CBAAB2E21788029700412960 /* Supporting Files */,
-				CBAAB2F8178802AB00412960 /* KPBUserDefaultsBackedObject.h */,
-				CBAAB2F9178802AB00412960 /* KPBUserDefaultsBackedObject.m */,
-				CBAAB2FB178802C700412960 /* KPBAppPreferences.h */,
-				CBAAB2FC178802C700412960 /* KPBAppPreferences.m */,
+				CBAAB33717882D6B00412960 /* KPBUserDefaultsBackedObject.h */,
+				CBAAB33817882D6B00412960 /* KPBUserDefaultsBackedObject.m */,
+				CBAAB30F17882B1F00412960 /* KPBAppDelegate.h */,
+				CBAAB31017882B1F00412960 /* KPBAppDelegate.m */,
+				CBAAB30717882B1F00412960 /* Supporting Files */,
 			);
-			path = KPBUserDefaultsBackedObject;
+			path = KPBUserDefaultsBackedObjectTests;
 			sourceTree = "<group>";
 		};
-		CBAAB2E21788029700412960 /* Supporting Files */ = {
+		CBAAB30717882B1F00412960 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CBAAB2E31788029700412960 /* KPBUserDefaultsBackedObject-Info.plist */,
-				CBAAB2E41788029700412960 /* InfoPlist.strings */,
-				CBAAB2E71788029700412960 /* main.m */,
-				CBAAB2E91788029700412960 /* KPBUserDefaultsBackedObject-Prefix.pch */,
-				CBAAB2ED1788029700412960 /* Default.png */,
-				CBAAB2EF1788029700412960 /* Default@2x.png */,
-				CBAAB2F11788029700412960 /* Default-568h@2x.png */,
+				CBAAB30817882B1F00412960 /* KPBUserDefaultsBackedObjectTests-Info.plist */,
+				CBAAB30917882B1F00412960 /* InfoPlist.strings */,
+				CBAAB30C17882B1F00412960 /* main.m */,
+				CBAAB30E17882B1F00412960 /* KPBUserDefaultsBackedObjectTests-Prefix.pch */,
+				CBAAB31217882B1F00412960 /* Default.png */,
+				CBAAB31417882B1F00412960 /* Default@2x.png */,
+				CBAAB31617882B1F00412960 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBAAB32417882B1F00412960 /* KPBUserDefaultsBackedObjectTestsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBAAB33B17882D9900412960 /* KPBAppPreferences.h */,
+				CBAAB33C17882D9900412960 /* KPBAppPreferences.m */,
+				CBAAB32A17882B1F00412960 /* KPBUserDefaultsBackedObjectTestsTests.h */,
+				CBAAB32B17882B1F00412960 /* KPBUserDefaultsBackedObjectTestsTests.m */,
+				CBAAB32517882B1F00412960 /* Supporting Files */,
+			);
+			path = KPBUserDefaultsBackedObjectTestsTests;
+			sourceTree = "<group>";
+		};
+		CBAAB32517882B1F00412960 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBAAB32617882B1F00412960 /* KPBUserDefaultsBackedObjectTestsTests-Info.plist */,
+				CBAAB32717882B1F00412960 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -112,22 +165,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CBAAB2D71788029700412960 /* KPBUserDefaultsBackedObject */ = {
+		CBAAB30117882B1F00412960 /* KPBUserDefaultsBackedObjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBAAB2F51788029700412960 /* Build configuration list for PBXNativeTarget "KPBUserDefaultsBackedObject" */;
+			buildConfigurationList = CBAAB32D17882B1F00412960 /* Build configuration list for PBXNativeTarget "KPBUserDefaultsBackedObjectTests" */;
 			buildPhases = (
-				CBAAB2D41788029700412960 /* Sources */,
-				CBAAB2D51788029700412960 /* Frameworks */,
-				CBAAB2D61788029700412960 /* Resources */,
+				CBAAB2FE17882B1F00412960 /* Sources */,
+				CBAAB2FF17882B1F00412960 /* Frameworks */,
+				CBAAB30017882B1F00412960 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KPBUserDefaultsBackedObject;
-			productName = KPBUserDefaultsBackedObject;
-			productReference = CBAAB2D81788029700412960 /* KPBUserDefaultsBackedObject.app */;
+			name = KPBUserDefaultsBackedObjectTests;
+			productName = KPBUserDefaultsBackedObjectTests;
+			productReference = CBAAB30217882B1F00412960 /* KPBUserDefaultsBackedObjectTests.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CBAAB31C17882B1F00412960 /* KPBUserDefaultsBackedObjectTestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBAAB33017882B1F00412960 /* Build configuration list for PBXNativeTarget "KPBUserDefaultsBackedObjectTestsTests" */;
+			buildPhases = (
+				CBAAB31817882B1F00412960 /* Sources */,
+				CBAAB31917882B1F00412960 /* Frameworks */,
+				CBAAB31A17882B1F00412960 /* Resources */,
+				CBAAB31B17882B1F00412960 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBAAB32317882B1F00412960 /* PBXTargetDependency */,
+			);
+			name = KPBUserDefaultsBackedObjectTestsTests;
+			productName = KPBUserDefaultsBackedObjectTestsTests;
+			productReference = CBAAB31D17882B1F00412960 /* KPBUserDefaultsBackedObjectTestsTests.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -151,44 +223,93 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CBAAB2D71788029700412960 /* KPBUserDefaultsBackedObject */,
+				CBAAB30117882B1F00412960 /* KPBUserDefaultsBackedObjectTests */,
+				CBAAB31C17882B1F00412960 /* KPBUserDefaultsBackedObjectTestsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CBAAB2D61788029700412960 /* Resources */ = {
+		CBAAB30017882B1F00412960 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBAAB2E61788029700412960 /* InfoPlist.strings in Resources */,
-				CBAAB2EE1788029700412960 /* Default.png in Resources */,
-				CBAAB2F01788029700412960 /* Default@2x.png in Resources */,
-				CBAAB2F21788029700412960 /* Default-568h@2x.png in Resources */,
+				CBAAB30B17882B1F00412960 /* InfoPlist.strings in Resources */,
+				CBAAB31317882B1F00412960 /* Default.png in Resources */,
+				CBAAB31517882B1F00412960 /* Default@2x.png in Resources */,
+				CBAAB31717882B1F00412960 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAAB31A17882B1F00412960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAAB32917882B1F00412960 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CBAAB31B17882B1F00412960 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		CBAAB2D41788029700412960 /* Sources */ = {
+		CBAAB2FE17882B1F00412960 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBAAB2E81788029700412960 /* main.m in Sources */,
-				CBAAB2EC1788029700412960 /* KPBAppDelegate.m in Sources */,
-				CBAAB2FA178802AB00412960 /* KPBUserDefaultsBackedObject.m in Sources */,
-				CBAAB2FD178802C700412960 /* KPBAppPreferences.m in Sources */,
+				CBAAB30D17882B1F00412960 /* main.m in Sources */,
+				CBAAB31117882B1F00412960 /* KPBAppDelegate.m in Sources */,
+				CBAAB33A17882D6B00412960 /* KPBUserDefaultsBackedObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAAB31817882B1F00412960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAAB32C17882B1F00412960 /* KPBUserDefaultsBackedObjectTestsTests.m in Sources */,
+				CBAAB33D17882D9900412960 /* KPBAppPreferences.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		CBAAB32317882B1F00412960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBAAB30117882B1F00412960 /* KPBUserDefaultsBackedObjectTests */;
+			targetProxy = CBAAB32217882B1F00412960 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		CBAAB2E41788029700412960 /* InfoPlist.strings */ = {
+		CBAAB30917882B1F00412960 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CBAAB2E51788029700412960 /* en */,
+				CBAAB30A17882B1F00412960 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBAAB32717882B1F00412960 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBAAB32817882B1F00412960 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -254,25 +375,61 @@
 			};
 			name = Release;
 		};
-		CBAAB2F61788029700412960 /* Debug */ = {
+		CBAAB32E17882B1F00412960 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KPBUserDefaultsBackedObject/KPBUserDefaultsBackedObject-Prefix.pch";
-				INFOPLIST_FILE = "KPBUserDefaultsBackedObject/KPBUserDefaultsBackedObject-Info.plist";
+				GCC_PREFIX_HEADER = "KPBUserDefaultsBackedObjectTests/KPBUserDefaultsBackedObjectTests-Prefix.pch";
+				INFOPLIST_FILE = "KPBUserDefaultsBackedObjectTests/KPBUserDefaultsBackedObjectTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		CBAAB2F71788029700412960 /* Release */ = {
+		CBAAB32F17882B1F00412960 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KPBUserDefaultsBackedObject/KPBUserDefaultsBackedObject-Prefix.pch";
-				INFOPLIST_FILE = "KPBUserDefaultsBackedObject/KPBUserDefaultsBackedObject-Info.plist";
+				GCC_PREFIX_HEADER = "KPBUserDefaultsBackedObjectTests/KPBUserDefaultsBackedObjectTests-Prefix.pch";
+				INFOPLIST_FILE = "KPBUserDefaultsBackedObjectTests/KPBUserDefaultsBackedObjectTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CBAAB33117882B1F00412960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KPBUserDefaultsBackedObjectTests.app/KPBUserDefaultsBackedObjectTests";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KPBUserDefaultsBackedObjectTests/KPBUserDefaultsBackedObjectTests-Prefix.pch";
+				INFOPLIST_FILE = "KPBUserDefaultsBackedObjectTestsTests/KPBUserDefaultsBackedObjectTestsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CBAAB33217882B1F00412960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KPBUserDefaultsBackedObjectTests.app/KPBUserDefaultsBackedObjectTests";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KPBUserDefaultsBackedObjectTests/KPBUserDefaultsBackedObjectTests-Prefix.pch";
+				INFOPLIST_FILE = "KPBUserDefaultsBackedObjectTestsTests/KPBUserDefaultsBackedObjectTestsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -288,11 +445,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBAAB2F51788029700412960 /* Build configuration list for PBXNativeTarget "KPBUserDefaultsBackedObject" */ = {
+		CBAAB32D17882B1F00412960 /* Build configuration list for PBXNativeTarget "KPBUserDefaultsBackedObjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CBAAB2F61788029700412960 /* Debug */,
-				CBAAB2F71788029700412960 /* Release */,
+				CBAAB32E17882B1F00412960 /* Debug */,
+				CBAAB32F17882B1F00412960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBAAB33017882B1F00412960 /* Build configuration list for PBXNativeTarget "KPBUserDefaultsBackedObjectTestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAAB33117882B1F00412960 /* Debug */,
+				CBAAB33217882B1F00412960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
